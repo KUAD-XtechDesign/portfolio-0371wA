@@ -134,7 +134,7 @@ footer {
 
 .top_eye_catch {
   height: 500px;
-  background-image: url(../images/top.jpg);
+  background-image: url(../images/top.GIF);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -147,7 +147,7 @@ footer {
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/top.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
