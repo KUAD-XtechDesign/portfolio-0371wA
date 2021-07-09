@@ -288,3 +288,22 @@ case1
   flex: 1;
  }
  
+ /*======================================================
+case2
+======================================================*/
+#case2 li{
+  display: flex;
+  background-color: #a9a9a9;
+  padding-bottom: 20px;
+}
+
+#case2 li .year{
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  font-weight: bold;
+}
+
+#case2 li .content{
+  background-color: rgb(0, 0, 0);
+  flex: 1;
+}
