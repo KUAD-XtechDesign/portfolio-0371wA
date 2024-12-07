@@ -16,7 +16,7 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color:black;
   position: relative;
 }
 
@@ -24,7 +24,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
-  color: #333333;
+  color: #9b9a9a;
   letter-spacing: 0.05em;
 }
 
@@ -82,7 +82,7 @@ header a {
 
 header .inner {
   display: flex;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   justify-content: space-between;
   padding: 15px 20px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.35);
@@ -116,7 +116,6 @@ footer {
 
 #global_menu a {
   padding: 0px 13px;
-  line-height: 1;
   position: relative;
 }
 
@@ -130,12 +129,12 @@ footer {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
 }
 
 .top_eye_catch {
   height: 500px;
-  background-image: url(../images/top.jpg);
+  background-image: url(../images/top.GIF);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -148,7 +147,7 @@ footer {
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/works.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
@@ -158,6 +157,28 @@ footer {
   font-weight: bold;
 }
 
+.cv_eye_catch {
+  height: 300px;
+  background-image: url(../images/cv.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
+.works_eye_catch {
+  height: 300px;
+  background-image: url(../images/works.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}
 .contents {
   max-width: 1000px;
   min-height: 600px;
@@ -206,7 +227,7 @@ report
 
 .report .outline .pic {
   width: 45%;
-  border: 3px solid #999;
+  
 }
 
 .report .outline .txt {
@@ -217,7 +238,6 @@ report
 .report h1 {
   margin-bottom: 20px;
   padding-left: 10px;
-  border-left: 5px solid #ff9a02;
 }
 
 .ex_link {
@@ -247,4 +267,65 @@ report
 ======================================================*/
 .mb_m {
   margin-bottom: 20px;
+}
+
+/*======================================================
+case1
+======================================================*/
+ 
+#case1{
+  border-left: 1px solid #9b9a9a;
+  margin-left: 30px;
+  }
+  
+ #case1 li{
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+ }
+  
+ #case1 li .year{
+  width: 80px;
+  display: flex;
+  align-items: center;
+ }
+  
+ #case1 li .year::before{
+  content: '';
+  display: block;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #9b9a9a;
+  left: -7px;
+  margin-right: 5px;
+ }
+  
+ #case1 li .date{
+  width: 60px;
+ }
+  
+ #case1 li .content{
+  flex: 1;
+ }
+ 
+ /*======================================================
+case2
+======================================================*/
+#case2 li{
+  display: flex;
+  background-color: #a9a9a9;
+  padding-bottom: 20px;
+}
+
+#case2 li .year{
+  background-color: rgb(0, 0, 0);
+  width: 100px;
+  font-weight: bold;
+}
+
+#case2 li .content{
+  background-color: rgb(0, 0, 0);
+  flex: 1;
 }
